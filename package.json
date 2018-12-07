@@ -1,0 +1,16 @@
+{
+  "name": "aven-repo-example",
+  "scripts": {
+    "start": "./node_modules/@aven-cloud/aven/aven-tools/cli.js start",
+    "build": "./node_modules/@aven-cloud/aven/aven-tools/cli.js build",
+    "deploy": "./node_modules/@aven-cloud/aven/aven-tools/cli.js deploy",
+    "clean": "./node_modules/@aven-cloud/aven/aven-tools/cli.js clean"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@aven-cloud/aven": "https://github.com/AvenCloud/Aven.git#master"
+  },
+  "aven": {
+    "extendsSrcModule": "@aven-cloud/aven"
+  }
+}

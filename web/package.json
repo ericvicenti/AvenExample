@@ -1,0 +1,25 @@
+{
+  "name": "aven-io",
+  "version": "0.1.0",
+  "private": true,
+  "aven": {
+    "publicAssetDir": "public",
+    "env": "web",
+    "moduleDependencies": [],
+    "envOptions": {
+      "mainServer": "MainServer.js",
+      "mainClient": "MainClient.js",
+      "deployEnv": "Heroku",
+      "herokuAppName": "aven-io"
+    },
+    "srcDependencies": [
+      "aven-web",
+      "aven-cloud",
+      "aven-cloud-browser",
+      "aven-cloud-server",
+      "navigation-web",
+      "navigation-core",
+      "navigation-hooks"
+    ]
+  }
+}
